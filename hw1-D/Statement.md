@@ -41,7 +41,7 @@ Cancelled b
 
 #### 要求
 * 在下列代码的基础上，编写Server类和Task类，完成上述要求。
-* 见main.cpp
+* main.cpp,见problem_105.zip
 ```
 #include <iostream>
 #include "Task.h"
