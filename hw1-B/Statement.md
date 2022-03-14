@@ -1,7 +1,7 @@
 ## 题目描述
 现在已有main.cpp、product.cpp、sum.cpp、functions.h四个文件。
 
-文件内容见problem_18.zip
+见problem_18.zip
 
 你需要编写一个Makefile文件完成程序的编译过程，要求：
 
