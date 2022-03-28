@@ -9,7 +9,7 @@ public:
     Map(int n);
     // TODO
     int & operator [](string name);
-    const int & operator[](string name)const;
+    const int operator[](string name)const;
     int size();
     ~Map();
 };
