@@ -17,13 +17,13 @@ int & Map::operator[](string name){
     data[sz].reset(name,0);
     return data[sz++].getVal();
 }
-const int & Map::operator[](string name) const{
+const int Map::operator[](string name) const{
     for(int i=0;i<sz;i++){
         if(data[i].hasKey(name)){
             return data[i].getVal();
         }
     }
-    return data[sz].getVal();
+    return 0;
 }
 
 int Map::size(){
