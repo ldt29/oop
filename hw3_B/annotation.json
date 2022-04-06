@@ -1,0 +1,42 @@
+{
+    "A": {
+        "status": "ok",
+        "constructor": [5,6],
+        "copy_constructor": [0],
+        "move_constructor": [1,2,7],
+        "assignment_operator": [],
+        "move_assignment_operator": [6]
+    },
+    "B": {
+        "status": "ok",
+        "constructor": [5],
+        "copy_constructor": [1],
+        "move_constructor": [2,5],
+        "assignment_operator": [],
+        "move_assignment_operator": []
+    },
+    "C": {
+        "status": "ok",
+        "constructor": [5],
+        "copy_constructor": [],
+        "move_constructor": [1,2,5],
+        "assignment_operator": [],
+        "move_assignment_operator": []
+    },
+    "D": {
+        "status": "error",
+        "constructor": [],
+        "copy_constructor": [],
+        "move_constructor": [],
+        "assignment_operator": [],
+        "move_assignment_operator": []
+    },
+    "E": {
+        "status": "error",
+        "constructor": [],
+        "copy_constructor": [],
+        "move_constructor": [],
+        "assignment_operator": [],
+        "move_assignment_operator": []
+    }
+}
