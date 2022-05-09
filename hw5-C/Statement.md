@@ -104,8 +104,8 @@ public:
 
 * Animal中type变量为private，无法从外部访问。
 * dynamic_cast。
-* 动物只能移动，不能复制。
-文件下载地址：下载链接见problem_.zip
+* 动物只能移动，不能复制。  
+文件下载地址：下载链接见problem_62.zip
 
 ### 输入说明
 输入第一行是n（n≤100），代表接受的动物数量。
